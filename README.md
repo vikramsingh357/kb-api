@@ -1,6 +1,8 @@
 # Deploy Your Own REST API in 30 Mins Using mLabs and Heroku
 
-Brief description and link to SP article
+This tutorial demonstrates how to use the MEAN stack to rapidly create a RESTful API server and web application.
+
+http://sitepoint.com/deploy-rest-api-in-30-mins-mlabs-heroku
 
 ## Requirements
 
