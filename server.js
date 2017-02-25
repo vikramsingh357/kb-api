@@ -23,7 +23,8 @@ var db;
 // Connect to the database before starting the application server. 
 //mongodb.MongoClient.connect(process.env.MONGODB_URI, function (err, database) {
 //mongodb://Semicolon:semicolon@123@ds161209.mlab.com:61209/semicolon
-mongodb.MongoClient.connect("mongodb://vikram:vikram@123@ds161209.mlab.com:61209/semicolon", function (err, database) {
+//mongodb://<dbuser>:<dbpassword>@ds161209.mlab.com:61209/semicolon
+mongodb.MongoClient.connect("mongodb://vikram:vikram@ds161209.mlab.com:61209/semicolon", function (err, database) {
   if (err) {
     console.log(err);
     process.exit(1);
